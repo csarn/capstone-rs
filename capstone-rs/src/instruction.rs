@@ -431,6 +431,7 @@ impl<'a> InsnDetail<'a> {
             [XCORE, XcoreDetail, XcoreInsnDetail, xcore]
             [BPF, BpfDetail, BpfInsnDetail, bpf]
             [SYSZ, SysZDetail, SysZInsnDetail, sysz]
+            [TRICORE, TricoreDetail, TricoreInsnDetail, tricore]
         );
     }
 }

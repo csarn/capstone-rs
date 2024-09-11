@@ -224,6 +224,8 @@ define_cs_enum_wrapper!(
     => RISCV = CS_ARCH_RISCV;
     /// BPF
     => BPF = CS_ARCH_BPF;
+    /// TRICORE
+    => TRICORE = CS_ARCH_TRICORE;
 );
 
 define_cs_enum_wrapper!(
@@ -293,6 +295,20 @@ define_cs_enum_wrapper!(
     => Cbpf = CS_MODE_BPF_CLASSIC;
     /// Extended BPF mode
     => Ebpf = CS_MODE_BPF_EXTENDED;
+    /// TriCore Version 110 Mode
+    => Tricore110 = CS_MODE_TRICORE_110;
+    /// TriCore Version 110 Mode
+    => Tricore120 = CS_MODE_TRICORE_120;
+    /// TriCore Version 110 Mode
+    => Tricore130 = CS_MODE_TRICORE_130;
+    /// TriCore Version 110 Mode
+    => Tricore131 = CS_MODE_TRICORE_131;
+    /// TriCore Version 110 Mode
+    => Tricore160 = CS_MODE_TRICORE_160;
+    /// TriCore Version 110 Mode
+    => Tricore161 = CS_MODE_TRICORE_161;
+    /// TriCore Version 110 Mode
+    => Tricore162 = CS_MODE_TRICORE_162;
     /// Default mode for little-endian
     => Default = CS_MODE_LITTLE_ENDIAN;
 );

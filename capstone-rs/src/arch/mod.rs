@@ -362,6 +362,21 @@ macro_rules! arch_info_base {
                 ( syntax: )
                 ( both_endian: true  )
             ]
+            [
+                ( tricore, TRICORE )
+                ( mode:
+                    Tricore110,
+                    Tricore120,
+                    Tricore130,
+                    Tricore131,
+                    Tricore160,
+                    Tricore161,
+                    Tricore162,
+                )
+                ( extra_modes: )
+                ( syntax: )
+                ( both_endian: false )
+            ]
         );
     };
 }
@@ -557,6 +572,13 @@ macro_rules! detail_arch_base {
                 op = SysZOperand,
                 /// Returns the SysZ details, if any
                 => arch_name = sysz,
+            ]
+            [
+                detail = TricoreDetail,
+                insn_detail = TricoreInsnDetail<'a>,
+                op = TricoreOperand,
+                /// Returns the Tricore details, if any
+                => arch_name = tricore,
             ]
         );
     };
