@@ -72,6 +72,8 @@ impl Arm64OperandType {
             ARM64_OP_SYS => Sys(unsafe { value.sys }),
             ARM64_OP_PREFETCH => Prefetch(unsafe { value.prefetch }),
             ARM64_OP_BARRIER => Barrier(unsafe { value.barrier }),
+            ARM64_OP_SVCR => unimplemented!(),
+            ARM64_OP_SME_INDEX => unimplemented!(),
         }
     }
 }

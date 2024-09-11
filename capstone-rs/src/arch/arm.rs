@@ -351,6 +351,7 @@ mod test {
             writeback: false,
             mem_barrier: arm_mem_barrier::ARM_MB_INVALID,
             op_count: 0,
+            post_index: false,
             operands: [
                 cs_arm_op {
                     vector_index: 0,
