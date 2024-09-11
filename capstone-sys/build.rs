@@ -131,6 +131,8 @@ fn build_capstone_cc() {
         .define("CAPSTONE_HAS_SYSZ", None)
         .define("CAPSTONE_HAS_TMS320C64X", None)
         .define("CAPSTONE_HAS_WASM", None)
+        .define("CAPSTONE_HAS_TRICORE", None)
+        .define("CAPSTONE_HAS_MOS65XX", None)
         .define("CAPSTONE_HAS_X86", None)
         .define("CAPSTONE_HAS_XCORE", None)
         .define("CAPSTONE_HAS_BPF", None)

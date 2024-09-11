@@ -50,6 +50,10 @@ pub static ARCH_INCLUDES: &[CapstoneArchInfo<'static>] = &[
         cs_name: "mips",
     },
     CapstoneArchInfo {
+        header_name: "mos65xx.h",
+        cs_name: "mos65xx",
+    },
+    CapstoneArchInfo {
         header_name: "ppc.h",
         cs_name: "ppc",
     },
@@ -70,6 +74,10 @@ pub static ARCH_INCLUDES: &[CapstoneArchInfo<'static>] = &[
         cs_name: "tms320c64x",
     },
     CapstoneArchInfo {
+        header_name: "tricore.h",
+        cs_name: "tricore",
+    },
+    CapstoneArchInfo {
         header_name: "x86.h",
         cs_name: "x86",
     },
@@ -79,8 +87,12 @@ pub static ARCH_INCLUDES: &[CapstoneArchInfo<'static>] = &[
     },
     CapstoneArchInfo {
         header_name: "bpf.h",
-        cs_name: "bpf"
-    }
+        cs_name: "bpf",
+    },
+    CapstoneArchInfo {
+        header_name: "wasm.h",
+        cs_name: "wasm",
+    },
 ];
 
 pub static BINDINGS_FILE: &str = "capstone.rs";
