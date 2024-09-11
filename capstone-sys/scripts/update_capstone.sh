@@ -1,9 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env sh
 #
 # Update the bundled capstone library
 
 # Modify value to update capstone
-CAPSTONE_REVISION="3b2984212fe524fd99217aa11d4486933a79f123"
+CAPSTONE_REVISION="5cca00533dadfe53181f1de3525f859769f69b65"
 
 set -eux
 
